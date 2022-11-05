@@ -3,7 +3,7 @@ import colorama
 
 FILENAME = "tokens.txt"
 FORMAT = 2 # 0 = token, 1 = token:password, 2 = mail:pass:token, 3 = token:mail:pass
-OUTPUT = 2 # 1 = token, 1 = token:password, 2 = mail:pass:token, 3 = token:mail:pass
+OUTPUT = 2 # 0 = token, 1 = token:password, 2 = mail:pass:token, 3 = token:mail:pass
 
 colorama.init(autoreset=True)
 
